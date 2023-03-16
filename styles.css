@@ -1,0 +1,183 @@
+body {
+    margin: 0; /*for removing left and right spaces from the dic color*/
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(3, 69, 52);
+    font-weight: 900;
+    font-size: 15px; 
+}
+hr {
+    /*border:dotted #b1c6c6 6px;
+    border-bottom: none;*/
+    background-color: #F9F9F9;
+    border-style: none;
+    border-top-style: dotted;
+    width: 7%;
+    border-color:#919696;
+    border-width: 10px;
+    margin:50px auto 50px auto;
+
+}
+h1 {
+    margin:50px auto 0 auto;
+    font-family:'Sacramento', cursive;
+    font-size: 7rem; /*16px= 90px/16 = 562.5%, or 5.625em(1em= 1 times the width of M) */
+    color:#175a4e;
+    line-height: 2;   
+}
+h2 {
+    font-family:'Sacramento', cursive;
+    color:rgb(49, 126, 101);
+    font-size: 3rem;
+}
+
+h3 {
+    font-family:'Poppins', sans-serif;
+    color:rgb(49, 126, 101);
+}
+img {
+    width:150px;
+    height:80px;
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+    margin:10px 20px 10px 20px;
+    text-decoration: none;
+}
+/*hover state of anchor tag(pseudo class)*/
+a:hover {
+    color:#eaf6f6;
+}
+.profile {
+    background-image: url("5660740.jpg");
+    background-color: #F9F9F9;
+    margin: 0;
+    padding:8% 0% 10% 0%;
+}
+
+.learn {
+    font-size:1.25rem;
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    color:#175a4e;  
+}
+.contact {
+    padding-bottom: 5%;
+}
+
+.top-container {
+    background-color: #CDF0EA;
+    position:relative;
+    padding: 15%;
+     
+}
+.middle-container {
+    background-color: #F9F9F9;
+    padding:0 0 0 0;
+    
+}
+.bottom-container {
+    background-color: #47605c;
+    padding:50px 10px 20px 10px;
+    margin:0; 
+}
+.skills {
+    padding-top: 2%;
+}
+.skill-row {
+    text-align:center;
+    padding-bottom: 2%;
+    margin:100px auto auto auto; 
+} 
+/*.pro {
+    text-decoration: underline  ;
+}*/
+.top-cloud {
+    position:absolute;
+    right:25%;
+    top:15%;
+}
+.bottom-cloud {
+    position: absolute;
+    left:25%;
+    bottom:15%;
+}
+.copyright {
+    font-size: 0.75rem;
+    color:rgb(140, 167, 160);
+    padding:20px 0;
+}
+.footer-link {
+    color:rgb(140, 167, 160);
+    font-size: 20px;
+}
+.riya {
+    width:20%;
+    height:60%;
+    border-radius:50%;
+}
+.python {
+    position: relative;
+    right:2%;
+    width:80px;
+}
+.cpp {
+    position: relative;
+    left:2%;
+    width:80px;
+}
+.photoshop {
+    position:relative;
+    right:5%;
+    width: 80px;
+
+}
+.illustrator {
+    width:80px;
+
+}
+.indesign {
+    position:relative;
+    left:5%;
+    width:80px;
+}
+/*button css*/
+.BUTTON_CPM {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999A);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999A);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999A);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999A);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999A);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_CPM:hover {
+    border: solid #337FED 1px;
+    background: #30ECBE;
+    background-image: -webkit-linear-gradient(top, #30ECBE, #2ABC4A);
+    background-image: -moz-linear-gradient(top, #30ECBE, #2ABC4A);
+    background-image: -ms-linear-gradient(top, #30ECBE, #2ABC4A);
+    background-image: -o-linear-gradient(top, #30ECBE, #2ABC4A);
+    background-image: -webkit-gradient(to bottom, #30ECBE, #2ABC4A);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
